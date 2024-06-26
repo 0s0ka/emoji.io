@@ -1,26 +1,30 @@
 .main {
   height: calc(100vh - 345px);
   background: #edeef3;
+
   &__form {
     margin: 0 auto;
     max-width: 820px;
-  }
-  &__label {
-    height: 64px;
-    max-width: 820px;
-    width: 100%;
-    border-radius: 4px;
-    border: 1px solid #ced4da;
-    background: #fff;
-    padding: 32px 22px;
   }
   &__input {
     border: none;
     width: 100%;
     display: inline-block;
     vertical-align: middle;
+    padding: 22px 32px;
+    border-radius: 4px;
+    border: 1px solid #ced4da;
+    background: #fff;
+    margin-top: -32px;
   }
-  &__content {
-    padding-top: 84px;
+
+  .card_wr {
+    margin: 0 auto;
+    padding-top: 48px;
+    max-width: 986px;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(316px, 1fr));
+    row-gap: 22px;
+    column-gap: 19px;
   }
 }
