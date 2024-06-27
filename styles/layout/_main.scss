@@ -1,4 +1,12 @@
+body {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  background-color: #edeef3;
+}
+
 .main {
+  flex-grow: 1;
   background: #edeef3;
   margin: 0 auto;
 
